@@ -1,11 +1,13 @@
 package com.booleanuk.battleships.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
 import org.springframework.data.util.Pair;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Data
 @Entity
 @Table(name = "games")
 public class Game {
